@@ -1,13 +1,18 @@
 import Header from './components/Header'
 import Item from './components/CoupleComponent/Item'
 import VideoComponent from './components/VideoComponent'
+import Poster from './assets/poster.webp'
+import Couple from './components/CoupleComponent'
 
 export default function App() {
   return (
-    <div className ='bg-pink-50 w-full p-2'>
+    <div className ='bg-pink-50 w-full p-1'>
+      <div className='mb-3 p-4 pb-2'>
+        <img src={Poster} alt='poster' className='w-screen rounded-xl'></img>
+      </div>
       <Header></Header>
-      <div className='flex-1 md:flex'>
-        <Item Image='https://i.pinimg.com/236x/2f/12/94/2f12942fc56d1ccf226acb1d4daf92d3.jpg' Name='Mind'></Item>
+      <div>
+        <Couple></Couple>
         <VideoComponent></VideoComponent>
       </div>
     </div>
