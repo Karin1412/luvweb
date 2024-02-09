@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import videoSource from '../assets/myvideo.mp4';
+import videoSource from '../../assets/myvideo.mp4';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
