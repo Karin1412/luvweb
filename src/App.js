@@ -1,5 +1,4 @@
 import Header from './components/Header'
-import Item from './components/CoupleComponent/Item'
 import VideoComponent from './components/VideoComponent'
 import Poster from './assets/poster.webp'
 import Couple from './components/CoupleComponent'
