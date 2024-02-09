@@ -16,7 +16,7 @@ const Item = (props) =>{
                 <FontAwesomeIcon
                     className='h-6 w-6 m-1 ml-28'
                     icon={faHeart}
-                    style={{color: isLiked ? 'pink' : 'grey'}}
+                    style={{color: isLiked ? 'FF5675' : 'E1E1E1' } }
                     onClick={handleClick}>
                 </FontAwesomeIcon>
             </div>
