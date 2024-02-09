@@ -6,7 +6,7 @@ import Heart from './Heart'
 
 const Couple = () =>{
     return(
-        <div className='flex'>
+        <div className='flex-1 justify-center items-center md:flex'>
             <Item Image={Girl} Name='Mind'></Item>
             <Heart></Heart>
             <Item Image={Boy} Name='Mint'></Item>
