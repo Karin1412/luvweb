@@ -9,7 +9,7 @@ const Item = (props) =>{
         setLiked(!isLiked)
     }
     return(
-        <div className='rounded-lg bg-white p-3 w-56 h-76 mb-2'>
+        <div className='rounded-lg bg-white p-3 w-56 h-full m-2'>
             <img src={props.Image} alt='avatar' className='rounded-md'/>
             <div className='flex'>
                 <p className='text-pink-400 font-semibold font-serif text-lg mt-1 ml-2'>{props.Name}</p>
